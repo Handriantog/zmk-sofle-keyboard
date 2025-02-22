@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -91,12 +91,12 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -122,9 +122,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
