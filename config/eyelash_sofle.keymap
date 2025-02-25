@@ -56,8 +56,8 @@
             bindings = <
 &tog 2          &kp N1     &kp N2    &kp N3    &kp N4  &kp N5     &kp UP_ARROW     &kp N6     &kp N7     &kp N8           &kp N9                             &kp N0      &kp BACKSPACE
 &kp TAB         &kp Q      &kp W     &kp E     &kp R   &kp T      &kp DOWN_ARROW   &kp Y      &kp U      &kp I            &kp O                              &kp P       &kp BSLH
-&kp LEFT_SHIFT  &kp A      &kp S     &kp D     &kp F   &kp G      &kp LEFT_ARROW   &kp H      &kp J      &kp K            &kp L                              &kp SEMI    &kp APOS
-&kp LALT        &kp Z      &kp X     &kp C     &kp V   &kp B      &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA        &kp DOT                            &kp FSLH    &mo 1
+&kp CAPSLOCK    &kp A      &kp S     &kp D     &kp F   &kp G      &kp LEFT_ARROW   &kp H      &kp J      &kp K            &kp L                              &kp SEMI    &kp APOS
+&kp LEFT_SHIFT  &kp Z      &kp X     &kp C     &kp V   &kp B      &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA        &kp DOT                            &kp FSLH    &kp RIGHT_SHIFT
 &kp C_MUTE      &kp LCTRL  &kp LALT  &kp LGUI  &tog 1  &kp ESC    &kp ENTER        &kp ENTER  &kp SPACE  &kp RIGHT_SHIFT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp DELETE
             >;
 
@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE       &kp F1            &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8            &kp F9     &kp F10           &trans
-&trans          &trans            &trans          &trans           &trans           &kp PAGE_UP        &mmv MOVE_DOWN   &kp MINUS        &kp EQUAL        &kp LEFT_BRACKET  &kp RBKT   &kp BACKSLASH     &kp EQUAL
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT        &kp LGUI         &kp SPACE        &kp PAGE_DOWN      &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans          &rgb_ug RGB_OFF   &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT        &kp F11    &kp F12           &trans
-&kp C_MUTE      &trans            &msc SCRL_DOWN  &msc SCRL_UP     &trans           &mkp LCLK          &mkp LCLK        &mkp RCLK        &trans           &trans            &trans     &trans
+&kp GRAVE         &kp F1            &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8            &kp F9     &kp F10           &trans
+&trans            &msc MOVE_X(-10)  &msc MOVE_X(10)  &trans           &trans           &kp PAGE_UP        &mmv MOVE_DOWN   &kp MINUS        &kp EQUAL        &kp LEFT_BRACKET  &kp RBKT   &kp BACKSLASH     &kp EQUAL
+&msc MOVE_Y(10)   &kp LEFT_CONTROL  &kp LALT         &kp LGUI         &kp SPACE        &kp PAGE_DOWN      &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN_ARROW   &kp UP_ARROW      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&msc MOVE_Y(-10)  &rgb_ug RGB_OFF   &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT        &kp F11    &kp F12           &trans
+&kp C_MUTE        &trans            &trans           &trans           &trans           &mkp LCLK          &mkp LCLK        &mkp RCLK        &trans           &trans            &trans     &trans
             >;
 
             display-name = "layer1";
