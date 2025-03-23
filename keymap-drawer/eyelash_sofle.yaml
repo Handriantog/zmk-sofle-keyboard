@@ -254,7 +254,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: layer1, h: toggle}
   - $$mdi:keyboard-esc$$
-  - {t: LAYER0, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
